@@ -1,0 +1,23 @@
+{
+  "name": "sitemap-to-prerender",
+  "version": "1.0.0",
+  "description": "A script that calls a prerender service for each url in a sitemap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lammertw/sitemap-to-prerender.git"
+  },
+  "keywords": [
+    "prerender",
+    "sitemap"
+  ],
+  "author": "Lammert Westerhoff",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lammertw/sitemap-to-prerender/issues"
+  },
+  "homepage": "https://github.com/lammertw/sitemap-to-prerender#readme"
+}
