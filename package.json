@@ -1,10 +1,20 @@
 {
   "name": "sitemap-to-prerender",
   "version": "1.0.0",
-  "description": "A script that calls a prerender service for each url in a sitemap",
-  "main": "index.js",
+  "description": "Call a prerender service for each url in a sitemap",
+  "main": "lib/index.js",
+  "bin": {
+    "sitemap-to-prerender": "lib/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "get-stdin": "^4.0.1",
+    "meow": "^3.0.0",
+    "sitemap-urls": "^1.0.0",
+    "update-notifier": "^0.3.0"
   },
   "repository": {
     "type": "git",
@@ -19,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/lammertw/sitemap-to-prerender/issues"
   },
-  "homepage": "https://github.com/lammertw/sitemap-to-prerender#readme"
+  "homepage": "https://github.com/lammertw/sitemap-to-prerender#readme",
+  "files": [
+    "lib"
+  ]
 }
