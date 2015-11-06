@@ -1,0 +1,10 @@
+Usage: sitemap-to-prerender <path> [<options>]
+
+Path:
+    Path to a file containing an XML sitemap.
+    This parameter is ignored when the sitemap is being piped.
+
+Options:
+    -p, --prerender   URL to prerender service. Required
+    -h, --help        Show this help text.
+    -v, --version     Print sitemap-urls' version.
